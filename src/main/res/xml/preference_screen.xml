@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="@string/pref_mag_title"
+        android:id="@+id/pref_magnitude"
+        android:key="mag"
+        android:defaultValue="3" />
+
+    <ListPreference
+        android:title="@string/pref_limit_title"
+        android:id="@+id/pref_limit"
+        android:key="limit"
+        android:defaultValue="10"
+        android:entries="@array/pref_limit_entries"
+        android:entryValues="@array/pref_limit_values"/>
+</PreferenceScreen>

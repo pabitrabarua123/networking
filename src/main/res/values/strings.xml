@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AsyncLoader</string>
+    <string name="no_internet">Check your network connection</string>
+    <string name="no_data_found">No data found</string>
+
+    <string name="setting">Settings</string>
+    <string name="share">Share</string>
+
+    <string name="pref_mag_title">Minimun magnitude</string>
+    <string name="pref_limit_title">Limit</string>
+
+</resources>

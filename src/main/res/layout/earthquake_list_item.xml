@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="#f1fcfa">
+
+    <TextView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:text="New Text"
+        android:background="@drawable/circle_background"
+        android:id="@+id/magnitude"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="New Text"
+        android:id="@+id/place"
+        android:textColor="#1434eb"
+        android:layout_marginBottom="7dp"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:layout_gravity="end"
+        android:layout_weight="2"
+        android:text="New Text"
+        android:id="@+id/time"
+        android:textColor="#0dd106"
+        android:textSize="13sp"/>
+</LinearLayout>
